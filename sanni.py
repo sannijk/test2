@@ -7,7 +7,7 @@ import os
 import time
 from datetime import timedelta
 from threading import Timer
-import pytz
+import pytz.timezone('Asia/Kolkata')
 
 # Insert your Telegram bot token here
 bot = telebot.TeleBot('7204011579:AAHWcguGQegCPKZyxQ3z5k8WxGH2Tx14sfY')
